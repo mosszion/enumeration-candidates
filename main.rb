@@ -8,8 +8,12 @@ require './filters'
 
 pp @candidates
 
-# Task 1 experienced above 2 years
+# Task 1 experienced candidates
 pp experienced?(@candidates.first)
+# Task 2 finding by id
 pp find(6)
+# Task 3 Qualified candidates
 pp qualified_candidates(@candidates)
+
+# Task 4 sort on Experience and points
 pp ordered_by_qualifications(@candidates)
